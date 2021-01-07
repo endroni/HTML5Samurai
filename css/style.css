@@ -1,8 +1,27 @@
 /*Utilidades*/
-.oculto{}
+.oculto{ font-size: 0px; margin: 0px; padding: 0px;}
+.logo{max-width: 200px;float: left;margin-top: 6px;}
 
 /*Cores*/
 
 /*Backgrounds*/
+.bg-black{background: #000;}
 
 /*Tamanhos de fontes */
+
+/*Btns*/
+.btn-saiba-mais{
+background-color: #337ab7;color: #FFF;padding: 17px 35px;font-size: 16px;font-weight: bold;border-radius: 3px;float: right;}
+
+/*Header*/
+.header{
+width: 100%;padding: 12px;float: left;margin: 0px;}
+
+ul.menu{
+list-style: none;float: left;margin-top: 17px;}
+
+ul.menu li{
+display: inline-block;}
+
+ul.menu li a{
+color: #FFF;margin-left: 14px;font-size: 18px;}
