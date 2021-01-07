@@ -57,15 +57,6 @@ background-color: #337ab7;color: #FFF;padding: 17px 35px;font-size: 16px;font-we
 .padding-70{padding: 70px 0px;}
 .padding-80{padding: 80px 0px;}
 
-/*Paddings*/
-.padding-10{padding: 10px 0px;}
-.padding-20{padding: 20px 0px;}
-.padding-30{padding: 30px 0px;}
-.padding-40{padding: 40px 0px;}
-.padding-50{padding: 50px 0px;}
-.padding-60{padding: 60px 0px;}
-.padding-70{padding: 70px 0px;}
-.padding-80{padding: 80px 0px;}
 
 /*Header*/
 .header{
@@ -128,4 +119,27 @@ color: #FFF;margin-left: 14px;font-size: 18px;}
 .titulo-detalhe{
     font-size: 16px;
 }
->>>>>>> producao
+
+/*Footer*/
+.footer{
+    background-color: #696969;
+}
+.titulo-footer{
+    font-size: 22px;
+}
+ul.menu-footer{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+ul.menu-footer li{
+    display: block;
+}
+ul.menu-footer li a{
+    color: #FFF;
+    font-weight: bold;
+}
+ul.menu-footer li a:hover{
+    color: #E0E0E0E0;
+    text-decoration: none;
+}
