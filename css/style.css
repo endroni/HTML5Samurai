@@ -67,3 +67,16 @@ color: #FFF;margin-left: 14px;font-size: 18px;}
     max-width: 60%;
     margin: 0px auto;
 }
+
+/*Cursos*/
+.cursos{}
+.img-curso{
+    max-width: 200px;
+}
+.titulo-curso{
+    font-weight: bold;
+    font-size: 20px;
+}
+.descricao{
+    font-size: 12px;
+}
