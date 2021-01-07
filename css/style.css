@@ -1,11 +1,16 @@
 /*Utilidades*/
 .oculto{ font-size: 0px; margin: 0px; padding: 0px;}
 .logo{max-width: 200px;float: left;margin-top: 6px;}
+.clear{clear:both;} /* Para jogar um elemento embaixo do outro */
 
 /*Cores*/
+/*.color-white{color: #FFF;} */
 
 /*Backgrounds*/
 .bg-black{background: #000;}
+
+/*Background Parallax Fixed*/
+.background-fixed-1{background-image: url("../imgs/background-parallax-home.png"); background-attachment: fixed;}
 
 /*Tamanhos de fontes */
 
@@ -25,3 +30,12 @@ display: inline-block;}
 
 ul.menu li a{
 color: #FFF;margin-left: 14px;font-size: 18px;}
+
+/*Slide*/
+.slide{
+    padding: 110px;
+}
+.titulo-slide{
+    font-size: 52px;
+    font-weight: bold;
+}
