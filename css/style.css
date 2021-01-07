@@ -12,6 +12,7 @@
 
 /*Background Parallax Fixed*/
 .background-fixed-1{background-image: url("../imgs/background-parallax-home.png"); background-attachment: fixed;}
+.background-fixed-2{background-image: url("../imgs/background-parallax.jpg"); background-attachment: fixed;}
 
 /*Tamanhos de fontes */
 
@@ -27,6 +28,21 @@ background-color: #337ab7;color: #FFF;padding: 17px 35px;font-size: 16px;font-we
     display: inline-flex;
 }
 .btn-saiba-mais2:hover{color: #115169;background: #FFF;text-decoration: none;}
+.btn-saiba-mais3{
+    background-color: #FFF;
+    padding: 14px 40px;
+    white-space: normal;
+    color: #696969;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.btn-saiba-mais3:hover{
+    color: #000;
+    text-decoration: none;
+    background-color: #E0E0E0;
+    cursor:pointer;
+}
 
 /*Paddings*/
 .padding-10{padding: 10px 0px;}
@@ -80,3 +96,7 @@ color: #FFF;margin-left: 14px;font-size: 18px;}
 .descricao{
     font-size: 12px;
 }
+
+/*Propaganda 2*/
+.propaganda-dois{}
+
