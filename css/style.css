@@ -100,3 +100,9 @@ color: #FFF;margin-left: 14px;font-size: 18px;}
 /*Propaganda 2*/
 .propaganda-dois{}
 
+/*Sessao mais detalhes*/
+.mais-detalhes{padding-top: 60px;}
+.img-designer-responsivo{
+    max-width: 200px;
+}
+.texto-detalhe-width{max-width: 270px}
