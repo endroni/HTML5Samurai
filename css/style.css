@@ -1,10 +1,10 @@
 /*Utilidades*/
 .oculto{ font-size: 0px; margin: 0px; padding: 0px;}
-.logo{max-width: 200px;float: left;margin-top: 6px;}
+.logo{max-width: 113px;float: left;margin-top: 6px;}
 .clear{clear:both;} /* Para jogar um elemento embaixo do outro */
 
 /*Cores*/
-/*.color-white{color: #FFF;} */
+.color-white{color: #FFF;}
 
 /*Backgrounds*/
 .bg-black{background: #000;}
