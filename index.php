@@ -8,10 +8,12 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" type="text/css" href="./css/all.css">
 
+    <!--Favicon -->
     <link rel="icon" type="img/favicon.jpg" href="./imgs/favicon.jpg">
 
     <!-- Link CSS Pessoal -->
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style-responsivo.css">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -71,28 +73,28 @@
             </div>        
 
             <div class="row">
-                <article class=" col-md-3">
+                <article class=" col-md-3 col-sm-6 col-xs-12">
                     <div class="detalhes">
                         <img src="./imgs/icones/curso-pratico-especializati.png" alt="HTML5 Curso prático" title="Curso HTML5">
                         <h1 class="titulo-detalhe">Prático</h1>
                     </div>
                 </article>
 
-                <article class=" col-md-3">
+                <article class=" col-md-3 col-sm-6 col-xs-12">
                     <div class="detalhes">
                     <img src="./imgs/icones/curso-online-especializati.png" alt="HTML5 Curso rápido" title="Curso HTML5">
                     <h1 class="titulo-detalhe">Rápido</h1>
                 </div>
                 </article>
 
-                <article class=" col-md-3">
+                <article class=" col-md-3 col-sm-6 col-xs-12">
                     <div class="detalhes">
                     <img src="./imgs/icones/projetos-reais-especializati.png" alt="HTML5 Curso divertido" title="Curso HTML5">
                     <h1 class="titulo-detalhe">Divertido</h1>
                 </div>
                 </article>
 
-                <article class=" col-md-3">
+                <article class=" col-md-3 col-sm-6 col-xs-12">
                     <div class="detalhes">
                     <img src="./imgs/icones/certificado-digital-especializati.png" alt="HTML5 Curso profissional" title="Curso HTML5">
                     <h1 class="titulo-detalhe">Profissional</h1>
@@ -123,7 +125,7 @@
 
             <div class="row">
 
-                <article class="col-md-3">
+                <article class="col-md-3 col-sm-6 col-xs-12 box-detalhes-curso">
                     <img src="./imgs/conteudo-cursos/treinamento-php-especializati.png" alt="Curso PHP" title="Curso PHP" class="img-curso">
                     <h1 class="titulo-curso">
                         Curso de PHP
@@ -133,7 +135,7 @@
                     </p>
                 </article>   
 
-                <article class="col-md-3">
+                <article class="col-md-3 col-sm-6 col-xs-12 box-detalhes-curso">
                     <img src="./imgs/conteudo-cursos/treinamento-javascript-especializati.png" alt="Curso JavaScript" title="Curso PHP" class="img-curso">
                     <h1 class="titulo-curso">
                         Curso de JavaScript
@@ -143,7 +145,7 @@
                     </p>
                 </article> 
 
-                <article class="col-md-3">
+                <article class="col-md-3 col-sm-6 col-xs-12 box-detalhes-curso">
                     <img src="./imgs/conteudo-cursos/treinamento-jquery-especializati.png" alt="Curso jQuery" title="Curso jQuery" class="img-curso">
                     <h1 class="titulo-curso">
                         Curso de jQuery
@@ -153,7 +155,7 @@
                     </p>
                 </article> 
 
-                <article class="col-md-3">
+                <article class="col-md-3 col-sm-6 col-xs-12 box-detalhes-curso">
                     <img src="./imgs/conteudo-cursos/treinamento-ajax-especializati.png" alt="Curso Ajax" title="Curso Ajax" class="img-curso">
                     <h1 class="titulo-curso">
                         Curso de Ajax
@@ -163,7 +165,7 @@
                     </p>
                 </article>                
 
-                <article class="col-md-3">
+                <article class="col-md-3 col-sm-6 col-xs-12 box-detalhes-curso">
                     <img src="./imgs/conteudo-cursos/treinamento-seo-especializati.png" alt="Curso SEO" title="Curso SEO" class="img-curso">
                     <h1 class="titulo-curso">
                         Curso de SEO
@@ -173,7 +175,7 @@
                     </p>
                 </article>
 
-                <article class="col-md-3">
+                <article class="col-md-3 col-sm-6 col-xs-12 box-detalhes-curso">
                     <img src="./imgs/conteudo-cursos/desenvolvimento-sistemas-especializati.png" alt="Curso Desenvolvimento de Sistemas" title="Curso Desenvolvimento de Sistemas" class="img-curso">
                     <h1 class="titulo-curso">
                         Curso de Desenvolvimento de Sistemas
@@ -289,7 +291,7 @@
 
     <div class="copyrigth">
         <p class="copyrigth">
-            Rubem Cândido <?=date('Y')?> - Todos os direitos reservados
+            Copyright &COPY; Todos os direitos reservados <?=date('Y')?> - Rubem Cândido
         </p>
     </div>
 

@@ -21,7 +21,8 @@
 
 /*Btns*/
 .btn-saiba-mais{
-background-color: #337ab7;color: #FFF;padding: 17px 35px;font-size: 16px;font-weight: bold;border-radius: 3px;float: right;}
+background-color: #115169;color: #FFF;padding: 17px 35px;font-size: 16px;font-weight: bold;border-radius: 3px;float: right;}
+.btn-saiba-mais:hover{color: #FFF; text-decoration: none; background-color: #337ab7;}
 .btn-saiba-mais2{
     border: 2px solid white;
     padding: 15px 28px;
@@ -91,6 +92,9 @@ color: #FFF;margin-left: 14px;font-size: 18px;}
 
 /*Cursos*/
 .cursos{}
+.box-detalhes-curso{
+    min-height: 300px;
+}
 .img-curso{
     max-width: 200px;
 }
@@ -145,6 +149,7 @@ ul.menu-footer li a:hover{
 }
 ul.redes-sociais{
     margin: 0px;
+    margin-top: 12px;
     padding: 0px;
     list-style: none;
 }
