@@ -143,3 +143,17 @@ ul.menu-footer li a:hover{
     color: #E0E0E0E0;
     text-decoration: none;
 }
+ul.redes-sociais{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul.redes-sociais li{
+    display: inline;
+    padding: 12px;
+    color: #FFF;
+    background-color: #BFBFBF;
+    margin: 2px;
+}
+ul.redes-sociais li a{}
+ul.redes-sociais li a:hover{}
