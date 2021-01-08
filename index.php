@@ -35,19 +35,19 @@
                 <h1 class="oculto">Mais sobre HTML</h1>
                 <ul class="menu">
                     <li>
-                        <a href="index.php?prm=home">Início</a>
+                        <a href="home">Início</a>
                     </li>
                     <li>
-                        <a href="index.php?prm=audio">Audio</a>
+                        <a href="audios">Audio</a>
                     </li>
                     <li>
-                        <a href="index.php?prm=video">Vídeo</a>
+                        <a href="videos">Vídeo</a>
                     </li>
                     <li>
-                        <a href="index.php?prm=formulario">Formulário</a>
+                        <a href="formulario">Formulário</a>
                     </li>
                     <li>
-                        <a href="index.php?prm=sobre">Sobre</a>
+                        <a href="sobre">Sobre</a>
                     </li>
                 </ul>
             </nav>
