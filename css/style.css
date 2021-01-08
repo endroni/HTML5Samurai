@@ -155,5 +155,8 @@ ul.redes-sociais li{
     background-color: #BFBFBF;
     margin: 2px;
 }
-ul.redes-sociais li a{}
-ul.redes-sociais li a:hover{}
+ul.redes-sociais li:hover{
+    background-color: #000;
+}
+
+ul.redes-sociais li a{color: #FFF !important;}
