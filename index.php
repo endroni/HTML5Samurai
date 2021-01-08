@@ -29,7 +29,7 @@
        <div class="container">
             <h1 class="oculto">HTML5-Shinobi</h1>
 
-            <img src="./imgs/learnCool.png" alt="logo cursos" title="HTML5-Shinobi" class="logo">
+            <img src="./imgs/learnCoolPreto.png" alt="logo cursos" title="HTML5-Shinobi" class="logo">
 
             <nav>
                 <h1 class="oculto">Mais sobre HTML</h1>
