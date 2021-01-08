@@ -115,7 +115,7 @@ color: #FFF;margin-left: 14px;font-size: 18px;}
 /*Detalhes do Curso */
 .detalhes-curso{}
 .detalhes{padding: 20px;}
-.detalhes:hover{cursor:pointer; background-color: #33b5b5; border-radius: 20px; color:#FFF;}
+.detalhes:hover{cursor:pointer;background-color: #115169;border-radius: 20px;color:#FFF;box-shadow: 2px 2px 15px #505050;}
 .titulo-detalhe{
     font-size: 16px;
 }
