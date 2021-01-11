@@ -54,7 +54,8 @@
 			<!-- Formulário HTML5 -->
 			<div class="col-md-6">
 				<p>Novos elementos de formulário HTML5</p>
-				<form>
+				<!-- Atualizações no método de envio -->
+				<form formaction="#" formmethod="POST" formenctype="multipart/form-data" formnovalidate>
 					<!-- pattern = uma forma de validação front end -->
 					<div class="form-group">
 						<input type="text" name="sobrenome" placeholder="Sobrenome" pattern="[A-Za-z]{3}">
