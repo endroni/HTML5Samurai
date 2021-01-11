@@ -5,10 +5,10 @@
 
 
 
-<section class="audio">
+<section class="audio padding-80">
 	<div class="container">
 		<h1 class="titulo">
-			Trabalhando com audio no HTML5
+			Trabalhando com áudio no HTML5
 		</h1>
 
 		<audio src="./files/Survivor-EyeOfTheTiger.mp3" controls loop></audio>
