@@ -43,6 +43,8 @@
 					</select>
 					<br>
 
+					<input type="file" name="arquivo">
+					<br>
 					<button>Enviar</button>
 					<input type="submit" name="enviar" value="Enviar Agora">
 				</form>
@@ -53,20 +55,27 @@
 			<div class="col-md-6">
 				<p>Novos elementos de formulário HTML5</p>
 				<form>
+					<!-- pattern = uma forma de validação front end -->
 					<div class="form-group">
-						<input type="tel" name="telefone" placeholder="Telefone"> <!-- O type tel é mais semantico do que visual -->
+						<input type="text" name="sobrenome" placeholder="Sobrenome" pattern="[A-Za-z]{3}">
+					</div>
+					<!-- autofocus - seleciona onde o cursor irá estar quando carregar a página -->
+					<div class="form-group">
+						<input type="tel" name="telefone" placeholder="Telefone" autofocus=""> <!-- O type tel é mais semantico do que visual -->
 					</div>
 
 					<div class="form-group">
 						<input type="search" name="search" placeholder="Search"> <!-- O type search é mais semantico do que visual -->
 					</div>
 
+					<!-- autocomplete = faz sugestão de dados já digitados -->
 					<div class="form-group">
-						<input type="url" name="url" placeholder="Insira a url">  <!-- O type url já possui uma certa validação, mas precisa de um submit -->
+						<input type="url" name="url" placeholder="Insira a url" autocomplete="">  <!-- O type url já possui uma certa validação, mas precisa de um submit -->
 					</div>
 
+					<!-- required = campo obrigatório -->
 					<div class="form-group">
-						<input type="email" name="email" placeholder="E-mail">  <!-- O type email já possui uma certa validação, mas precisa de um submit -->
+						<input type="email" name="email" placeholder="E-mail" required="">  <!-- O type email já possui uma certa validação, mas precisa de um submit -->
 					</div>
 
 					<div class="form-group">
