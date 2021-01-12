@@ -60,6 +60,10 @@ background-color: #115169;color: #FFF;padding: 17px 35px;font-size: 16px;font-we
 .padding-70{padding: 70px 0px;}
 .padding-80{padding: 80px 0px;}
 
+/*Resets*/
+
+/*.navbar-toggler{background-color: #FFF !important;}
+.navbar-toggler .navbar-toggler-icon{background-color:#333 !important;} */
 
 /*Header*/
 .header{

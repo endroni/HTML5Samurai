@@ -2,6 +2,7 @@
 	ul.menu{width: 100%;}
 	ul.menu li{display: block; width: 100%;}
 	.titulo-slide{font-size: 30px;}
+	.navbar-toggler{background-color: #FFF !important;}
 }
 
 @media screen and (max-width: 768px){

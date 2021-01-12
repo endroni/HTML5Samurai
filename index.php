@@ -31,26 +31,34 @@
 
             <img src="./imgs/learnCoolPreto.png" alt="logo cursos" title="HTML5-Shinobi" class="logo">
 
-            <nav>
+            <nav class="navbar navbar-expand-lg navbar-light" style="float:left">
                 <h1 class="oculto">Mais sobre HTML</h1>
-                <ul class="menu">
-                    <li>
-                        <a href="home">Início</a>
+
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-HTML5Shinobi" aria-controls="menu-HTML5Shinobi" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#FFF">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <div class="collapse navbar-collapse" id="menu-HTML5Shinobi">  
+                <ul class="menu navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home" style="color:#FFF">Início <span class="sr-only">(current)</span></a>
                     </li>
-                    <li>
-                        <a href="audios">Audio</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="audios" style="color:#FFF">Audio</a>
                     </li>
-                    <li>
-                        <a href="videos">Vídeo</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="videos" style="color:#FFF">Vídeo</a>
                     </li>
-                    <li>
-                        <a href="formulario">Formulário</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="formulario" style="color:#FFF">Formulário</a>
                     </li>
-                    <li>
-                        <a href="sobre">Sobre</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="sobre" style="color:#FFF">Sobre</a>
                     </li>
                 </ul>
             </nav>
+
+        </div>
 
             <a href="#" class="btn-saiba-mais">Saiba mais</a>
        </div>
